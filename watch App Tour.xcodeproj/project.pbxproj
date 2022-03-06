@@ -20,6 +20,15 @@
 		4316DB3427D5583900610A34 /* watch_App_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB3327D5583900610A34 /* watch_App_TourTests.swift */; };
 		4316DB3E27D5583900610A34 /* watch_App_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB3D27D5583900610A34 /* watch_App_TourUITests.swift */; };
 		4316DB4027D5583900610A34 /* watch_App_TourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB3F27D5583900610A34 /* watch_App_TourUITestsLaunchTests.swift */; };
+		4316DB5527D5591900610A34 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5427D5591900610A34 /* ChartsView.swift */; };
+		4316DB5827D55AA600610A34 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5727D55AA600610A34 /* ColorsView.swift */; };
+		4316DB5A27D5650F00610A34 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5927D5650F00610A34 /* BarChartView.swift */; };
+		4316DB5C27D5652400610A34 /* WedgeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5B27D5652400610A34 /* WedgeChartView.swift */; };
+		4316DB5E27D5653700610A34 /* RingChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5D27D5653700610A34 /* RingChartView.swift */; };
+		4316DB6127D566C100610A34 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB6027D566C100610A34 /* ColorModel.swift */; };
+		4316DB6327D56ED800610A34 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB6227D56ED800610A34 /* HeaderView.swift */; };
+		4316DB6527D56F2200610A34 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB6427D56F2200610A34 /* CapsuleView.swift */; };
+		4316DB6727D5704C00610A34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4316DB6627D5704C00610A34 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +106,15 @@
 		4316DB3927D5583900610A34 /* watch App TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watch App TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4316DB3D27D5583900610A34 /* watch_App_TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_App_TourUITests.swift; sourceTree = "<group>"; };
 		4316DB3F27D5583900610A34 /* watch_App_TourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_App_TourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4316DB5427D5591900610A34 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		4316DB5727D55AA600610A34 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		4316DB5927D5650F00610A34 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		4316DB5B27D5652400610A34 /* WedgeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeChartView.swift; sourceTree = "<group>"; };
+		4316DB5D27D5653700610A34 /* RingChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingChartView.swift; sourceTree = "<group>"; };
+		4316DB6027D566C100610A34 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		4316DB6227D56ED800610A34 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4316DB6427D56F2200610A34 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
+		4316DB6627D5704C00610A34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +145,7 @@
 		4316DAFF27D5583300610A34 = {
 			isa = PBXGroup;
 			children = (
+				4316DB6627D5704C00610A34 /* README.md */,
 				4316DB0E27D5583300610A34 /* watch App Tour WatchKit App */,
 				4316DB1927D5583800610A34 /* watch App Tour WatchKit Extension */,
 				4316DB3227D5583900610A34 /* watch App TourTests */,
@@ -158,6 +177,8 @@
 		4316DB1927D5583800610A34 /* watch App Tour WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4316DB5F27D566AD00610A34 /* Models */,
+				4316DB5627D55A0900610A34 /* Views */,
 				4316DB1A27D5583800610A34 /* watch_App_TourApp.swift */,
 				4316DB1C27D5583800610A34 /* ContentView.swift */,
 				4316DB1E27D5583800610A34 /* NotificationController.swift */,
@@ -194,6 +215,28 @@
 				4316DB3F27D5583900610A34 /* watch_App_TourUITestsLaunchTests.swift */,
 			);
 			path = "watch App TourUITests";
+			sourceTree = "<group>";
+		};
+		4316DB5627D55A0900610A34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4316DB5727D55AA600610A34 /* ColorsView.swift */,
+				4316DB5427D5591900610A34 /* ChartsView.swift */,
+				4316DB5927D5650F00610A34 /* BarChartView.swift */,
+				4316DB6427D56F2200610A34 /* CapsuleView.swift */,
+				4316DB5B27D5652400610A34 /* WedgeChartView.swift */,
+				4316DB5D27D5653700610A34 /* RingChartView.swift */,
+				4316DB6227D56ED800610A34 /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4316DB5F27D566AD00610A34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4316DB6027D566C100610A34 /* ColorModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4316DB6727D5704C00610A34 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,10 +428,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4316DB1F27D5583800610A34 /* NotificationController.swift in Sources */,
+				4316DB6527D56F2200610A34 /* CapsuleView.swift in Sources */,
+				4316DB5E27D5653700610A34 /* RingChartView.swift in Sources */,
 				4316DB1D27D5583800610A34 /* ContentView.swift in Sources */,
+				4316DB5C27D5652400610A34 /* WedgeChartView.swift in Sources */,
 				4316DB2327D5583800610A34 /* ComplicationController.swift in Sources */,
 				4316DB1B27D5583800610A34 /* watch_App_TourApp.swift in Sources */,
 				4316DB2127D5583800610A34 /* NotificationView.swift in Sources */,
+				4316DB6327D56ED800610A34 /* HeaderView.swift in Sources */,
+				4316DB5827D55AA600610A34 /* ColorsView.swift in Sources */,
+				4316DB5527D5591900610A34 /* ChartsView.swift in Sources */,
+				4316DB6127D566C100610A34 /* ColorModel.swift in Sources */,
+				4316DB5A27D5650F00610A34 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
