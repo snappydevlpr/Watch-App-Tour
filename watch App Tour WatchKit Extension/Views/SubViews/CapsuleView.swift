@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct CapsuleView: View {
+    let value:Int;
+    let day:String;
+    
     var body: some View {
         HStack(alignment: .bottom, spacing:2){
             //MARK: - Graph Data entry
             VStack{
                 VStack(spacing:2){
-                    Text("99")
+                    Text("\(value)")
                         .font(.system(size: 11))
                         .foregroundColor(.gray)
                     Capsule()
-                        .frame(width: 10, height:100)
+                        .frame(width: 10, height:CGFloat( value))
                         .foregroundColor(.red)
                 }
-                Text("M")
+                Text(day)
                     .font(.system(size:12))
                     .fontWeight(.black)
                     .padding(.top,10)
@@ -32,6 +35,6 @@ struct CapsuleView: View {
 
 struct CapsuleView_Previews: PreviewProvider {
     static var previews: some View {
-        CapsuleView()
+        CapsuleView(value: 99, day: "M")
     }
 }

@@ -15,8 +15,16 @@ struct BarChartView: View {
             //MARK: - Graph header
             HeaderView(title:"BAR", subtitle: "CHART")
             //MARK: - Graph Data
-            CapsuleView()
-        }
+            HStack(alignment:.bottom){
+                CapsuleView(value: 25, day: "S")
+                CapsuleView(value: 30, day: "M")
+                CapsuleView(value: 75, day: "T")
+                CapsuleView(value: 99, day: "W")
+                CapsuleView(value: 75, day: "T")
+                CapsuleView(value: 10, day: "F")
+                CapsuleView(value: 80, day: "S")
+            }
+       }
     }
 }
 
