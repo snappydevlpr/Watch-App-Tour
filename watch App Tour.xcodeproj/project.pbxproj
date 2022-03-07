@@ -23,7 +23,6 @@
 		4316DB5527D5591900610A34 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5427D5591900610A34 /* ChartsView.swift */; };
 		4316DB5827D55AA600610A34 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5727D55AA600610A34 /* ColorsView.swift */; };
 		4316DB5A27D5650F00610A34 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5927D5650F00610A34 /* BarChartView.swift */; };
-		4316DB5C27D5652400610A34 /* WedgeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5B27D5652400610A34 /* WedgeChartView.swift */; };
 		4316DB5E27D5653700610A34 /* RingChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB5D27D5653700610A34 /* RingChartView.swift */; };
 		4316DB6127D566C100610A34 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB6027D566C100610A34 /* ColorModel.swift */; };
 		4316DB6327D56ED800610A34 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316DB6227D56ED800610A34 /* HeaderView.swift */; };
@@ -109,7 +108,6 @@
 		4316DB5427D5591900610A34 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		4316DB5727D55AA600610A34 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 		4316DB5927D5650F00610A34 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
-		4316DB5B27D5652400610A34 /* WedgeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeChartView.swift; sourceTree = "<group>"; };
 		4316DB5D27D5653700610A34 /* RingChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingChartView.swift; sourceTree = "<group>"; };
 		4316DB6027D566C100610A34 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		4316DB6227D56ED800610A34 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 				4316DB5727D55AA600610A34 /* ColorsView.swift */,
 				4316DB5427D5591900610A34 /* ChartsView.swift */,
 				4316DB5927D5650F00610A34 /* BarChartView.swift */,
-				4316DB5B27D5652400610A34 /* WedgeChartView.swift */,
 				4316DB5D27D5653700610A34 /* RingChartView.swift */,
 			);
 			path = Views;
@@ -439,7 +436,6 @@
 				4316DB6527D56F2200610A34 /* CapsuleView.swift in Sources */,
 				4316DB5E27D5653700610A34 /* RingChartView.swift in Sources */,
 				4316DB1D27D5583800610A34 /* ContentView.swift in Sources */,
-				4316DB5C27D5652400610A34 /* WedgeChartView.swift in Sources */,
 				4316DB2327D5583800610A34 /* ComplicationController.swift in Sources */,
 				4316DB1B27D5583800610A34 /* watch_App_TourApp.swift in Sources */,
 				4316DB2127D5583800610A34 /* NotificationView.swift in Sources */,

@@ -11,9 +11,9 @@ struct ChartsView: View {
     var body: some View {
         TabView{
             BarChartView()
-            WedgeChartView()
             RingChartView()
         }
+//        .frame(width: 100, height: 100)
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
     }
 }

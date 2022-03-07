@@ -15,7 +15,7 @@ struct CapsuleView: View {
         HStack(alignment: .bottom, spacing:2){
             //MARK: - Graph Data entry
             VStack{
-                VStack(spacing:2){
+                VStack(spacing:1){
                     Text("\(value)")
                         .font(.system(size: 11))
                         .foregroundColor(.gray)
@@ -26,10 +26,10 @@ struct CapsuleView: View {
                 Text(day)
                     .font(.system(size:12))
                     .fontWeight(.black)
-                    .padding(.top,10)
+                    .padding(.top,2)
             }
         }
-        .padding(.top,10)
+        .padding(.top,2)
     }
 }
 

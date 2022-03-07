@@ -8,16 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isPresented = false;
     var body: some View {
          //MARK: - Start of List
         
             List{
                 //button to redirect to ChartsView
-                Button("Charts"){
-                    self.isPresented.toggle()
+                NavigationLink(destination:ChartsView()){
+                    Text("Charts")
                 }
-                .fullScreenCover(isPresented: $isPresented, content: ChartsView.init)
                 
                 NavigationLink(destination:ColorsView()){
                     Text("Colors")
